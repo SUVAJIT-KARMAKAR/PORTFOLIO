@@ -15,7 +15,7 @@ const Home = () => {
           {/* TEXT-SECTION */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-s"> FULL-STACK DEVELOPER & DATA-ANALYST </span>
-            <h1 className="h1 mb-6"> HELLO I'M <br/> <span className="text-accent"> SUVAJIT KARMAKAR </span> </h1>
+            <h1 className="h1 mb-6"> HELLO I&apos;M <br/> <span className="text-accent"> SUVAJIT KARMAKAR </span> </h1>
             <p className="max-w-[500px] mb-9 text-white/60"> 
               I excel at crafting excellent digital experiences and I am proficient in various programming languages and technologies.
             </p>
@@ -42,7 +42,6 @@ const Home = () => {
           <div>
             <Photo className="order-1 xl:order-none mb-8 xl:mb-0"/>
           </div>
-
         </div>
       </div>
 
