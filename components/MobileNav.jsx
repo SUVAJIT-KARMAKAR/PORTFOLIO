@@ -29,6 +29,11 @@ const links = [
     {
         name: 'contact',
         path: '/contact'
+    },
+    
+    {
+        name: 'leetcode',
+        path: '/leetcode'
     }
 ]
 
@@ -52,7 +57,7 @@ const MobileNav = () => {
                 </div>
 
                 {/* NAVIGATION */}
-                <nav className="flex flex-col justify-content items-center gap-8">
+                <nav className="flex flex-col justify-content items-center gap-3">
                     {links.map((link,index) => {
                         return (
                         <Link 

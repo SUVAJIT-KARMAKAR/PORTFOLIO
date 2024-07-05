@@ -29,6 +29,11 @@ const links = [
     {
         name: "contact",
         path: "/contact",
+    },
+
+    {
+        name: "leetcode",
+        path: "/leetcode"
     }
 ]
 
