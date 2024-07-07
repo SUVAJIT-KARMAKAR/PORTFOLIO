@@ -152,7 +152,7 @@ const Contact = () => {
                                                 className="text-white/50"
                                             > {item.title} </p>
                                             <h3
-                                                className="text-xl"
+                                                className="text-xs"
                                             > {item.Description} </h3>
                                         </div>
                                     </li>
