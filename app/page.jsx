@@ -14,7 +14,7 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* TEXT-SECTION */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-s"> FULL-STACK DEVELOPER & DATA-ANALYST </span>
+            <span className="text-s"> FULL-STACK & AI-ML & DA</span>
             <h1 className="h1 mb-6"> HELLO I&apos;M <br/> <span className="text-accent"> SUVAJIT KARMAKAR </span> </h1>
             <p className="max-w-[500px] mb-9 text-white/60"> 
               I excel at crafting excellent digital experiences and I am proficient in various programming languages and technologies.

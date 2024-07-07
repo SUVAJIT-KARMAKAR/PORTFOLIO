@@ -1,7 +1,7 @@
 // RESUME @IMPORT 
 "use client";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaPython, FaRust, FaSass } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiDjango, SiKotlin } from "react-icons/si";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaPython, FaRust, FaSass, FaAws } from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs, SiDjango, SiKotlin, SiPandas, SiOpencv, SiMongodb } from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -210,6 +210,26 @@ const skills = {
         {
             icon: <SiKotlin/>,
             name: "KOTLIN"
+        },
+
+        {
+            icon: <SiPandas/>,
+            name: "PANDAS"
+        },
+
+        {
+            icon: <SiOpencv/>,
+            name: "OPENCV"
+        },
+
+        {
+            icon: <FaAws/>,
+            name: "AWS"
+        },
+
+        {
+            icon: <SiMongodb/>,
+            name: "MONGODB"
         }
     ]
 }
@@ -351,7 +371,7 @@ const Resume = () => {
                     {/* SKILLS */}
                     <TabsContent
                         value="skills"
-                        className="w-full h-full"
+                        className="w-full h-full mb-5"
                     >
                         <div className="flex flex-col gap-[30px]">
                             <div className="flex flex-col gap-[30px] text-center xl:text-left">
