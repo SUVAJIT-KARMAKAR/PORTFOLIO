@@ -90,7 +90,7 @@ const education = {
 
         {
             institution: "CHRIST UNIVERSITY",
-            degree: "MCA",
+            degree: "MASTERS IN COMPUTER APPLICAITON",
             duration: "2023 - PRESENT"
         }
     ],

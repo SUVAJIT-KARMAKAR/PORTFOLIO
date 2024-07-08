@@ -17,31 +17,75 @@ import WorkSliderButtons from "@/components/WorkSliderButtons";
 const projects = [
     {
         num: "01",
-        category: "FULL-STACK PROJECT",
+        category: "FRONT END PROJECT",
         title: "PROJECT 1",
-        Description: "A simple end-to-end full-stack project which fetches you weather information",
+        Description: "Cloudy, a weather application, user-friendly and informative platform for accessing weather forecasts. Created a seamless experience for users to stay updated on weather conditions",
         stack : [
             { name: "HTML" },
             { name: "CSS" },
             { name: "JAVASCRIPT" },
         ],
         image: "/assets/work/CLOUDY-LOGO.jpeg",
-        live: "",
+        live: "http://surl.li/kmskdu",
         github: ""
     },
 
     {
         num: "02",
-        category: "SAAS",
+        category: "PYTHON OPEN-CV",
         title: "PROJECT 2",
-        Description: "",
+        Description: "The real-time face recognition project utilizes OpenCV and machine learning algorithms to detect and recognize faces in real-time. The application is robust and flexible and allows detection and capture of face for real-time attendance system",
+        stack : [
+            { name: "PYTHON" },
+            { name: "OPEN-CV" },
+            { name: "STREAMLIT"}
+        ],
+        image: "/assets/work/OPEN-CV-RTFD.png",
+        live: "",
+        github: "https://github.com/SUVAJIT-KARMAKAR/REAL-TIME-FACE-DETECTION-SYSTEM"
+    },
+
+    {
+        num: "03",
+        category: "RUST PROGRAMMING",
+        title: "PROJECT 3",
+        Description: "A simple CLI application using Rust Programming that facilities a simple guessing game",
+        stack : [
+            { name: "RUST" },
+            { name: "CLI"}
+        ],
+        image: "/assets/work/GUESS-IT-CLI.png",
+        live: "http://surl.li/ulqxzp",
+        github: "https://github.com/SUVAJIT-KARMAKAR/GUESS-IT-CLI"
+    },
+
+    {
+        num: "04",
+        category: "AUTOMATION",
+        title: "PROJECT 4",
+        Description: "Automation with telegram bot using JavaScript. A telegram bot that takes care of your social media post caption generation, give inputs and get all the post captions in one go",
+        stack : [
+            { name: "JAVASCRIPT" },
+            { name: "MONGODB"}
+        ],
+        image: "/assets/work/SAY-SOCIAL-LOGO.jpeg",
+        live: "http://surl.li/cbigjm",
+        github: "https://github.com/SUVAJIT-KARMAKAR/SAY-SOCIAL-TELEGRAM-BOT"
+    },
+
+    {
+        num: "05",
+        category: "FULL STACK PROJECT",
+        title: "PROJECT 5",
+        Description: "A music inventroy system that is your personal loadout of all your personal favourite music",
         stack : [
             { name: "HTML" },
             { name: "CSS" },
-            { name: "JAVASCRIPT" },
+            { name: "PYTHON" },
+            { name: "FLASK"}
         ],
-        image: "/assets/work/NOTEFY-LOGO.jpeg",
-        live: "",
+        image: "/assets/work/TUNES-LOGO.jpeg",
+        live: "http://surl.li/wzzlgk",
         github: ""
     },
 ];

@@ -8,37 +8,51 @@ import { motion } from "framer-motion";
 const services = [
     {
         num: '01',
-        title: 'WEB DEVELOPMENT',
-        description: '',
+        title: 'FULL STACK DEVELOPER',
+        description: 'I build websites and web applications, handling both front-end and back-end development',
         href: "/"
     },
 
     {
         num: '02',
-        title: 'UI / UX DESIGN',
-        description: '',
+        title: 'PYTHON DEVELOPER',
+        description: 'Python is my language of choice for creating efficient and powerful programs and applications',
         href: "/"
     },
 
     {
         num: '03',
-        title: 'LOGO DESIGN',
-        description: '',
+        title: 'ARTIFICIAL INTELLIGENCE',
+        description: 'It fasinates me more than human intelligence, how a computer thinks ? Make decisions ?',
         href: "/"
     },
 
     {
         num: '04',
-        title: 'SEO',
-        description: '',
+        title: 'DATA ANALYST',
+        description: 'To uncover the real truth behind the data which is surrounding us all the time',
         href: "/"
     },
+
+    {
+        num: '05',
+        title: 'SPACE ENTHUSIAST',
+        description: 'I am passionate about space and enjoy exploring and sharing knowledge about the universe',
+        href: "/"
+    },
+
+    {
+        num: '06',
+        title: 'SEO',
+        description: 'Optimizing  websites to rank higher in search engine results, driving more traffic and visibility',
+        href: "/"
+    }
 
 ];
 
 const Services = () => {
     return (
-        <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+        <section className="mb-10 min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
             <div className="container mx-auto">
                 <motion.div 
                     initial={{ opacity: 0 }}
