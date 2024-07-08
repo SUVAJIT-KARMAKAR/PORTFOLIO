@@ -32,7 +32,7 @@ const about = {
 
         {
             fieldName: "GMAIL",
-            fieldValue: "suvajitkarmakar2001@gmail.com"
+            fieldValue: "ikarmakarsuvajit@gmail.com"
         },
 
         {
