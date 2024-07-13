@@ -17,7 +17,7 @@ const Home = () => {
             <span className="text-s"> FULL-STACK & AI-ML & DA</span>
             <h1 className="h1 mb-6"> HELLO I&apos;M <br/> <span className="text-accent"> SUVAJIT KARMAKAR </span> </h1>
             <p className="max-w-[500px] mb-9 text-white/60"> 
-              I excel at crafting excellent digital experiences and I am proficient in various programming languages and technologies.
+            Dedicated professional with a passion for innovation and problem-solving. <br/> Experienced in Full- Stack WebDevelopment, Artificial Intelligence - Machine Learning & Data Analysis. Seeking opportunities to contribute and grow in a dynamic environment.
             </p>
 
             {/* BUTTONS & SOCIALS */}
@@ -27,7 +27,7 @@ const Home = () => {
                 size="lg" 
                 className="uppercase flex items-center gap-2"
               >
-                <span> DOWNLOD CV </span>
+                <span> DOWNLOAD RESUME </span>
                 <FiDownload className="text-xl"/>
               </Button>
               

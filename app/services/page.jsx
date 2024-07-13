@@ -10,42 +10,42 @@ const services = [
         num: '01',
         title: 'FULL STACK DEVELOPER',
         description: 'I build websites and web applications, handling both front-end and back-end development',
-        href: "/"
+        href: "https://www.linkedin.com/in/suvajit-karmakar-677112220/',"
     },
 
     {
         num: '02',
         title: 'PYTHON DEVELOPER',
         description: 'Python is my language of choice for creating efficient and powerful programs and applications',
-        href: "/"
+        href: "https://www.linkedin.com/in/suvajit-karmakar-677112220/',"
     },
 
     {
         num: '03',
         title: 'ARTIFICIAL INTELLIGENCE',
         description: 'It fasinates me more than human intelligence, how a computer thinks ? Make decisions ?',
-        href: "/"
+        href: "https://www.linkedin.com/in/suvajit-karmakar-677112220/',"
     },
 
     {
         num: '04',
         title: 'DATA ANALYST',
         description: 'To uncover the real truth behind the data which is surrounding us all the time',
-        href: "/"
+        href: "https://www.linkedin.com/in/suvajit-karmakar-677112220/',"
     },
 
     {
         num: '05',
         title: 'SPACE ENTHUSIAST',
         description: 'I am passionate about space and enjoy exploring and sharing knowledge about the universe',
-        href: "/"
+        href: "https://www.linkedin.com/in/suvajit-karmakar-677112220/',"
     },
 
     {
         num: '06',
         title: 'SEO',
         description: 'Optimizing  websites to rank higher in search engine results, driving more traffic and visibility',
-        href: "/"
+        href: "https://www.linkedin.com/in/suvajit-karmakar-677112220/',"
     }
 
 ];

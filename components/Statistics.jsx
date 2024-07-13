@@ -5,23 +5,23 @@ import CountUp from "react-countup";
 // STATISTICS-OBJECT 
 const statistics = [
     {
-        num: 4,
-        text: "Years of experience",
+        num: null,
+        text: "FRESHER",
     },
 
     {
         num: 10,
-        text: "Projects completed",
+        text: "PROJECTS COMPLETED",
     },
 
     {
         num: 12,
-        text: "Technologies mastered",
+        text: "TECHNOLOGIES MASTERED",
     },
 
     {
         num: 70,
-        text: "Code committed",
+        text: "CODES COMITTED"
     },
 ];
 

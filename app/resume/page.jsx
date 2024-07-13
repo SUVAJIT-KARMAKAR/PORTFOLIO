@@ -27,7 +27,7 @@ const about = {
 
         {
             fieldName: "EXPERIENCE",
-            fieldValue: "4+ YEARS "
+            fieldValue: "FRESHER"
         },
 
         {
@@ -56,7 +56,8 @@ const experience = {
         {
             company: "CODSOFT",
             position: "WEB-DEVELOPER INTERN",
-            duration: "JULY, 2024"
+            duration: "JULY, 2024",
+            href: "https://rb.gy/ohcu8k"
         }
     ],
 }
@@ -71,21 +72,21 @@ const education = {
             institution: "MDB DAV PUBLIC SCHOOL",
             degree: "SECONDARY EDUCATION",
             duration: "2015 - 2018",
-            grade: "9.8 CGPA" 
+            grade: "9.4 CGPA" 
         },
 
         {
             institution: "BANKURA ZILLA SCHOOL",
             degree: "HIGHER-SECONDARY EDUCATION",
             duration: "2018 - 2020",
-            grade: "8.6 CGPA"
+            grade: "8.9 CGPA"
         },
 
         {
             institution: "BANKURA UNIVERSITY",
             degree: "BSC(H) IN COMPUTER SCIENCE",
             duration: "2020 - 2023",
-            grade: "9.68 CGPA"
+            grade: "9.63 CGPA"
         },
 
         {
@@ -113,7 +114,7 @@ const certification = {
             course: "MASTERING DSA USING C AND C++",
             company: "UDEMY",
             duration: "58.5 HOURS",
-            href: "/"
+            href: "https://shorturl.at/QCu7E"
         },
 
         {
@@ -143,6 +144,48 @@ const certification = {
             duration: "28 HOURS",
             href: "/"
         },
+
+        {
+            course: "AWS CLOUD FOUNDATIONS",
+            company: "AWS",
+            duration: "20 HOURS",
+            href: "https://shorturl.at/mQ8JV"
+        },
+
+        {
+            course: "MICROSERVICES ARCHITECTURE",
+            company: "INFOSYS",
+            duration: "41 MINUTES",
+            href: "https://shorturl.at/ffoeu"
+        },
+
+        {
+            course: "REST API",
+            company: "LINKEDIN LEARNING",
+            duration: "1 HOUR",
+            href: "https://shorturl.at/JTIB0"
+        },
+
+        {
+            course: "INTERNATIONAL ASTROMONICAL SEARCH",
+            company: "NASA",
+            duration: "FEBRUARY - MARCH",
+            href: "https://shorturl.at/eUJHL"
+        },
+
+        {
+            course: "INTERNATIONAL ASTRONOMICAL SEARCH",
+            company: "NASA",
+            duration: "NOVEMBER 1 - 26",
+            href: "https://shorturl.at/eUJHL"
+        },
+
+        {
+            course: "INTERNATIONAL ASTRONOMICAL SEARCH",
+            company: "NASA",
+            duration: "OCTOBER 1 - 27",
+            href: "https://shorturl.at/eUJHL"
+        }
     ]
 
 }
@@ -284,13 +327,20 @@ const Resume = () => {
                                     return (
                                         <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg: items-start gap-1">
                                             <span className="text-accent "> {item.duration} </span>
-                                            <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left"> {item.position} </h3>
+                                            <h3 className="text-xs max-w-[260px] min-h-[15px] text-center lg:text-left"> {item.position} </h3>
                                             <div className="flex items-center gap-3 ">
                                                 {/* DOT */}
                                                 {/* <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>  */}
                                                 <p className="text-white/60"> {item.company} </p>
                                                 {/* <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>  */}
                                             </div>
+
+                                            <Link 
+                                                href={item.href} 
+                                                className="w-[40px] h-[40px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
+                                            >
+                                                <BsArrowDownRight className="text-primary text-xl"/>
+                                            </Link>
                                         </li>
                                     )
                                 })}
