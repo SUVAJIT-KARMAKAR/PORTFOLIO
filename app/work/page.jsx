@@ -40,7 +40,7 @@ const projects = [
             { name: "OPEN-CV" },
             { name: "STREAMLIT"}
         ],
-        image: "/assets/work/OPEN-CV-RTFD.png",
+        image: "/assets/work/RTFD.png",
         live: "",
         github: "https://github.com/SUVAJIT-KARMAKAR/REAL-TIME-FACE-DETECTION-SYSTEM"
     },
@@ -54,7 +54,7 @@ const projects = [
             { name: "RUST" },
             { name: "CLI"}
         ],
-        image: "/assets/work/GUESS-IT-CLI.png",
+        image: "/assets/work/GUESSIT.png",
         live: "http://surl.li/ulqxzp",
         github: "https://github.com/SUVAJIT-KARMAKAR/GUESS-IT-CLI"
     },
