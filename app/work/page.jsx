@@ -32,6 +32,21 @@ const projects = [
 
     {
         num: "02",
+        category: "FRONT END PROJECT",
+        title: "PROJECT 2",
+        Description: "easyFIND is a comprehensive website designed to assist programmers by offering a collection of programming language PDFs and shorthand guides. It serves as a quick reference for revision, helping users efficiently resolve bugs and syntax-related issues. Whether you're a beginner or an experienced developer, easyFIND is a valuable resource for enhancing your coding skills and streamlining your workflow.",
+        stack: [
+            { name: "ReactJS" },
+            { name: "Scss" },
+            { name: "MongoDB" }
+        ],
+        image: "/assets/work/easyFIND-logo.png",
+        live: "",
+        github: "https://github.com/SUVAJIT-KARMAKAR/CODSOFT-LEVEL-1-TASK-2"
+    },
+
+    {
+        num: "03",
         category: "PYTHON OPEN-CV",
         title: "PROJECT 2",
         Description: "The real-time face recognition project utilizes OpenCV and machine learning algorithms to detect and recognize faces in real-time. The application is robust and flexible and allows detection and capture of face for real-time attendance system",
@@ -46,7 +61,7 @@ const projects = [
     },
 
     {
-        num: "03",
+        num: "04",
         category: "RUST PROGRAMMING",
         title: "PROJECT 3",
         Description: "A simple CLI application using Rust Programming that facilities a simple guessing game",
@@ -60,7 +75,7 @@ const projects = [
     },
 
     {
-        num: "04",
+        num: "05",
         category: "AUTOMATION",
         title: "PROJECT 4",
         Description: "Automation with telegram bot using JavaScript. A telegram bot that takes care of your social media post caption generation, give inputs and get all the post captions in one go",
@@ -74,7 +89,7 @@ const projects = [
     },
 
     {
-        num: "05",
+        num: "06",
         category: "FULL STACK PROJECT",
         title: "PROJECT 5",
         Description: "A music inventroy system that is your personal loadout of all your personal favourite music",
