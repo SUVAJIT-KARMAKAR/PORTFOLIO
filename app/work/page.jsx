@@ -252,5 +252,5 @@ const Work = () => {
     );
 };
 
-// EXPORTING WORK 
+// EXPORTING WORK COMPONENT
 export default Work;
