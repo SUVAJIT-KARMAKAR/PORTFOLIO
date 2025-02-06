@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
     "lucide-react": "^0.474.0",
     "prettier": "^3.4.2",
     "prop-types": "^15.8.1",

@@ -9,5 +9,5 @@ export default {
       },
     },
   },
-  plugins: [tailwindScrollbar],
+  plugins: [tailwindScrollbar, require("@tailwindcss/typography")],
 };

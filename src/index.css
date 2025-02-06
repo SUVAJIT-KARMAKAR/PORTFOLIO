@@ -11,7 +11,8 @@ body {
 }
 
 /* TYPOGRAPHY */
-.headline-one {
+.headline-one,
+.headline-two {
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   background-clip: text;
@@ -19,6 +20,9 @@ body {
 }
 .headline-one {
   @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+}
+.headline-two {
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold;
 }
 
 /* UTILITIES */
