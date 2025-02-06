@@ -22,7 +22,10 @@ const Hero = () => {
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
-              Available for work
+              SWE{" "}
+              <a href="https://www.codewalnut.com/" target="__blank">
+                @CodeWalnut
+              </a>
             </div>
           </div>
           <h2 className="headline-one max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
