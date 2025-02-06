@@ -10,6 +10,30 @@ body {
   @apply bg-zinc-900 text-zinc-50;
 }
 
+/* TYPOGRAPHY */
+.headline-one {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headline-one {
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+}
+
+/* UTILITIES */
+.container {
+  @apply px-4 mx-auto lg:px-8 xl:max-w-6xl;
+}
+
+.image-box {
+  @apply bg-zinc-700 overflow-hidden;
+}
+
+.image-cover {
+  @apply w-full h-full object-cover;
+}
+
 /* MENU-BUTTON */
 .menu-button {
   @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active:scale-95;
@@ -34,8 +58,14 @@ body {
 
 /* BUTTON */
 .button {
-  @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-base ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
+  @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-semibold text-base ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
+}
+.button-primary {
+  @apply h-11 bg-green-500 text-zinc-950 hover:bg-green-300 active:bg-green-400;
 }
 .button-secondary {
   @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80;
+}
+.button-outline {
+  @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800;
 }
