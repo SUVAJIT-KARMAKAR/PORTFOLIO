@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
   <img 
-    src="./src/assets/favicon/android-chrome-192x192.png" 
+    src="./public/avatar/LOGO.png" 
     alt="Suvajit Karmakar Logo" 
     style="width: 50px; height: 50px; border-radius: 50%;"
   >
