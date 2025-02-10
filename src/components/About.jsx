@@ -48,7 +48,7 @@ const About = () => {
               </div>
             ))}
             <img
-              src="../../public/LOGO.png"
+              src="/avatar/LOGO.png"
               alt="Logo"
               width={30}
               height={30}

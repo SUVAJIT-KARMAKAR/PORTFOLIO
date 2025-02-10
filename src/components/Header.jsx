@@ -15,7 +15,7 @@ const Header = () => {
             <a href="/" className="logo">
               <img
                 className="w-[40px]"
-                src="/src/assets/favicon/android-chrome-512x512.png"
+                src="/avatar/LOGO.png"
                 alt="SuvajitKarmakar"
               />
             </a>
