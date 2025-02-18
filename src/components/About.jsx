@@ -24,7 +24,7 @@ const About = () => {
   return (
     <section id="about" className="section">
       <div className="container">
-        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
+        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 revealup">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl w-full text-justify">
             Welcome! I&apos;m Suvajit, a professional full stack developer with
             a knack for crafting visually stunning and highly functional
