@@ -8,19 +8,25 @@ const works = [
   {
     imgSrc: "/projects/RTFD.png",
     title: "Real Time Face Detection",
-    tags: ["Detection","Python", "OpenCV"],
+    tags: ["Detection", "Python", "OpenCV"],
     projectLink: "",
   },
   {
-    imgSrc: "/projects/SAY-SOCIAL-LOGO.png",
+    imgSrc: "/projects/SAYSOCIAL.png",
     title: "Say Social",
     tags: ["Bot", "Telegram", "NodeJS", "MongoDB"],
     projectLink: "",
   },
   {
-    imgSrc: "/projects/TUNES-LOGO.jpeg",
+    imgSrc: "/projects/TUNES.jpeg",
     title: "Tunes",
     tags: ["Inventory", "Flask", "Python", "MongoDB"],
+    projectLink: "",
+  },
+  {
+    imgSrc: "/projects/BACKDOOR.png",
+    title: "Backdoor",
+    tags: ["Ordering", "Nodejs", "Expressjs", "MongoDB"],
     projectLink: "",
   },
 ];
