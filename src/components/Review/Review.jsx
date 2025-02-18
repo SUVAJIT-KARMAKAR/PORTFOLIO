@@ -8,10 +8,10 @@ import ReviewCard from "./ReviewCard";
 const reviews = [
   {
     content:
-      "Exceptional web developer! Delivered a seamless, responsive site with clean code and great UX.",
-    name: "sophia Ramirex",
-    imgSrc: "/testimonials/testimonial_female.png",
-    company: "PizelForce",
+      "Exceptional developer, great at work, down to earth and very humble",
+    name: "subham gorai",
+    imgSrc: "/testimonials/testimonial_male.png",
+    company: "NIT Silchar",
   },
 ];
 
